@@ -16,6 +16,7 @@ export default () => (
       },
       headerTintColor: '#FFF',
       headerBackTitle: 'Voltar',
+      headerTitleAlign: 'center',
     }}>
     <MainStack.Screen name="ListScreen" component={ListScreen} />
     <MainStack.Screen name="EditScreen" component={EditScreen} />

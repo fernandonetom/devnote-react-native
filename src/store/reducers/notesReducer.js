@@ -1,7 +1,5 @@
 const initialState = {
-  list: [
-    //{title: "", body: ""}
-  ],
+  list: [],
 };
 export default (state = initialState, action) => {
   switch (action.type) {
