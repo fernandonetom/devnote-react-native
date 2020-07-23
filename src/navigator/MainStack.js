@@ -6,8 +6,6 @@ import EditScreen from '../screens/Edit';
 
 const MainStack = createStackNavigator();
 
-const options = {};
-
 export default () => (
   <MainStack.Navigator
     screenOptions={{
