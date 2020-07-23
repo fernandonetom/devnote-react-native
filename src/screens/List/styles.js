@@ -12,10 +12,6 @@ export const AddButtonImage = styled.Image`
   width: 24px;
   height: 24px;
 `;
-export const NoteList = styled.FlatList`
-  flex: 1;
-  width: 100%;
-`;
 export const NoNotes = styled.View`
   justify-content: center;
   align-items: center;
@@ -28,4 +24,8 @@ export const NoNotesImage = styled.Image`
 export const NoNotesText = styled.Text`
   font-size: 17px;
   color: #fff;
+`;
+export const List = styled.View`
+  flex: 1;
+  width: 100%;
 `;
