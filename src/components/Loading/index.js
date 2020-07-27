@@ -1,6 +1,5 @@
 import React from 'react';
-import {Container} from '../Global';
-import {Loading} from './styles';
+import {Container, Loading} from './styles';
 
 export default function () {
   return (

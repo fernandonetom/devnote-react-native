@@ -9,7 +9,7 @@ export const ListaItemSwipe = styled.View`
 export const Text = styled.Text``;
 export const Delete = styled.TouchableHighlight`
   width: 100px;
-  background-color: #ff0000;
+  background-color: #ff3333;
   justify-content: center;
   align-items: center;
 `;

@@ -21,6 +21,8 @@ export default () => {
   const navigation = useNavigation();
   const dispatch = useDispatch();
   const list = useSelector((state) => state.notes.list);
+  const theme = useSelector((state) => state.theme.dark);
+
   useLayoutEffect(() => {
     navigation.setOptions({
       title: 'Suas anotações',
